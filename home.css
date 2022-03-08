@@ -323,6 +323,7 @@ i {
     .flex_child {
         width: 80%;
         margin-bottom: 10%;
+        flex-direction: column;
     }
     .child_h {
         font-size: 25px;
