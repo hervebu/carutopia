@@ -98,6 +98,8 @@ h1 {
 }
 .flex {
     display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
     width: 90%;
     margin-left: 5%;
     margin-bottom: 5%;
@@ -216,6 +218,7 @@ i {
         width: 30%;
         margin-left: 35%;
     }
+
     .flex_child {
         width: 40%;
     }
@@ -245,6 +248,10 @@ i {
     .about_h1, .vehicles_h1, .contacts_h {
         width: 40%;
         margin-left: 30%;
+    }
+    .flex {
+        flex-direction: row;
+        flex-wrap:wrap;
     }
     .flex_child {
         width: 40%;
@@ -320,10 +327,13 @@ i {
         margin-top: 15%;
         margin-left: 20%;
     }
+    .flex {
+        flex-direction: column;
+        flex-wrap:wrap;
+    }
     .flex_child {
         width: 80%;
         margin-bottom: 10%;
-        flex-direction: column;
     }
     .child_h {
         font-size: 25px;
