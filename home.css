@@ -204,6 +204,11 @@ i {
     font-size: 20px;
     display: inline-block;
 }
+.d-details-element {
+    color: #54595F;
+    font-size: 17px;
+    display: inline-block;
+}
 h3 {
     font-size: 18px;
     color: #54595F;
