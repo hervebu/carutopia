@@ -1,5 +1,6 @@
 * {
     padding: 0;
+    outline: none;
 }
 body {
     box-sizing: border-box;
@@ -115,6 +116,9 @@ h1 {
     margin-right: 15px;
     padding: 20px;
 }
+.flex_child:hover {
+    box-shadow: 0px 1px 15px 2px #8888888f;
+}
 .child_h {
     color: #363636;
     text-align: center;
@@ -228,8 +232,8 @@ h3 {
 .car-details {
     width: 90%;
     margin-left: 5%;
+    margin-bottom: 40px;
     margin-top: 3%;
-    height: 80vh;
     padding: none;
 }
 #car-selected {
@@ -243,13 +247,14 @@ h3 {
     display: inline-block;
     margin-left: 20px;
     margin-right: 0%;
-    width: 37%;
+    padding-right: 20px;
+    width: 35%;
     vertical-align: top;
 
 }
 .descr-title, #car-title {
     margin-left: 18px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     color: #363636;
 }
 #car-title {
@@ -263,17 +268,47 @@ h3 {
 .car-info {
     text-decoration: none;
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
     margin-left: 20px;
+    border: none;
+    border-bottom: 1px solid #999999;
 }
 .c-info-label {
-    color: #363636;
+    color: #999999;
 }
 .c-info-value {
-    margin-right: 20px;
+    margin-right: 0px;
     float: right;
-    color: #999999;
+    color: #363636;
     text-align: right;
+}
+.checkout-amnt {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    color: #363636;
+}
+#checkout-val {
+    float: right;
+    font-weight: bold;
+}
+.terms-conds-label {
+    margin-left: 20px;
+    font-size: 14px;
+}
+.terms-conds {
+    color: blue;
+    text-decoration: underline;
+}
+#checkout-btn {
+    margin: 20px 20px;
+    width: 95%;
+    height: 40px;
+    font-size: 20px;
+    background-color: #DB2D2E;
+    color: #fff;
+    border: none;
 }
 
 @media only screen and (max-width: 1016px) {
@@ -362,6 +397,9 @@ h3 {
         width: 70%;
         margin-left: 5%;
         margin-top: 5%;
+    }
+    #car-selected {
+        width: 55%;
     }
 }
 @media only screen and (max-width: 450px) {
@@ -457,6 +495,24 @@ h3 {
         width: 70%;
         margin-left: 25%;
         margin-top: 5%;
+    }
+    #car-selected {
+        width: 100%;
+    }
+    
+    .car-selected-info {
+        padding-right: 0;
+        margin-left: 0px;
+        width: 100%;   
+    }
+    .car-info {
+        width: 90%;
+    }
+    .checkout-amnt {
+        width: 90%;
+    }
+    #checkout-btn {
+        width: 90%;
     }
 }
 @media only screen and (max-width: 390px) {
