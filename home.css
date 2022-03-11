@@ -1,3 +1,6 @@
+* {
+    padding: 0;
+}
 body {
     box-sizing: border-box;
     font-size: 16px;
@@ -174,14 +177,12 @@ i {
     height: 60vh;
     margin-left: 20%;
     margin-bottom: 30px;
-    /* padding: 20px; */
     background-color: #F6F6F6;
     border-radius: 10px; 
 }
 .big-icon-container {
     color: #DB2D2E;
     width: 100%;
-    /* margin-left: 20%; */
     margin-top: 5px;    
 }
 .fa-address-card {
@@ -195,8 +196,8 @@ i {
 
 }
 .contact-details {
-    width: 100%;
-    margin-left: 10%;
+    width: 90%;
+    margin-left: 5%;
     margin-top: 5%;
 }
 .c-details-element {
@@ -223,6 +224,58 @@ h3 {
     background-size:100% 100%;
 }
 
+/* cardetails.html styles*/
+.car-details {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 3%;
+    height: 80vh;
+    padding: none;
+}
+#car-selected {
+    display: inline-block;
+    width: 60%;
+    height: 90%;
+}
+
+.car-selected-info {
+    background-color: #F2F5FA;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 0%;
+    width: 37%;
+    vertical-align: top;
+
+}
+.descr-title, #car-title {
+    margin-left: 18px;
+    margin-bottom: 20px;
+    color: #363636;
+}
+#car-title {
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+.car-selected > ul {
+    padding: none;
+}
+.car-info {
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.c-info-label {
+    color: #363636;
+}
+.c-info-value {
+    margin-right: 20px;
+    float: right;
+    color: #999999;
+    text-align: right;
+}
+
 @media only screen and (max-width: 1016px) {
     .div_top {
         height: 400px;
@@ -238,6 +291,10 @@ h3 {
     .type-link {
         margin-left: 15%;
     }
+    .contact-container {
+        width: 80%;
+        margin-left: 10%;
+    }
     .big-icon-container {
         margin-left: 0%;   
     }
@@ -246,7 +303,7 @@ h3 {
         margin-top: 0%;
     }
     .contact-details {
-        margin-left: 10%;
+        margin-left: 5%;
         margin-top: 5%;
 
     }
@@ -255,6 +312,7 @@ h3 {
     }
     .c-details-element {
         font-size: 16px;
+        margin-left: 5%;
 
     }
 
@@ -301,8 +359,8 @@ h3 {
         margin-top: 0%;
     }
     .contact-details {
-        width: 60%;
-        margin-left: 10%;
+        width: 70%;
+        margin-left: 5%;
         margin-top: 5%;
     }
 }
@@ -443,8 +501,8 @@ h3 {
     .contacts_h {
         margin-top: 10%;
         font-size: 25px;
-        width: 40%;
-        margin-left: 30%;
+        width: 60%;
+        margin-left: 20%;
     }
     .categories_h1 {
         width: 50%;
@@ -495,7 +553,7 @@ h3 {
     }
     .contact-details {
         width: 70%;
-        margin-left: 25%;
+        margin-left: 20%;
         margin-top: 5%;
     }
 }
