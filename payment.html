@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel="stylesheet" href="./home.css">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <script src="https://kit.fontawesome.com/d881a9c703.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
+        <title>Payment Method</title>
+
+    </head>
+
+<body>
+	<div class="container">
+    <form action="">
+        <div class="row">
+            <div class="column">
+                <h3 class="title">Billing address</h3>
+                <div class="inputBox">
+                    <span>Full name: </span>
+                    <input type="text" placeholder="First and last names">
+                </div>
+                <div class="inputBox">
+                    <span>Email: </span>
+                    <input type="text" placeholder="example@carutopia.rw">
+                </div>
+                <div class="inputBox">
+                    <span>Address: </span>
+                    <input type="text" placeholder="Street number">
+                </div>
+                <div class="inputBox">
+                    <span>City: </span>
+                    <input type="text" placeholder="City">
+                </div>
+
+                <div class="grid">
+                <div class="inputBox">
+                    <span>State: </span>
+                    <input type="text" placeholder="Province">
+                </div>
+                <div class="inputBox">
+                    <span>Postal code: </span>
+                    <input type="number" placeholder="00000">
+                </div>
+                </div>
+        </div>
+        <div class="column">
+            <h3 class="title">Payment</h3>
+            <div class="inputBox">
+                <span>Supported payment methods: </span>
+                <img src="assets/card_img.png" alt="">
+            </div>
+            <div class="inputBox">
+                <span>Name on card: </span>
+                <input type="text" placeholder="Angel NTWARI">
+            </div>
+            <div class="inputBox">
+                <span>Card number: </span>
+                <input type="number" placeholder="4200-0000-0000-0000">
+            </div>
+            <div class="inputBox">
+                <span>Exp month: </span>
+                <input list="months" placeholder="March">
+                <datalist id="months">
+                  <option value="January">
+                  <option value="February">
+                  <option value="March">
+                  <option value="April">
+                  <option value="May">
+                <option value="June">
+                <option value="July">
+                <option value="October">
+                <option value="November">
+                <option value="December">             
+                </datalist>
+            </div>
+            <div class="grid">
+                <div class="inputBox">
+                    <span>Exp year: </span>
+                    <input type="number" placeholder="2025">
+                </div>
+                <div class="inputBox">
+                    <span>CVV: </span>
+                    <input type="number" placeholder="123/1234">
+                </div>
+            </div>
+    </div>
+            </div>
+            <input type="submit" value="Checkout" class="submit-btn">
+        </form>
+	</div>
+</body>
