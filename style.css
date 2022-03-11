@@ -97,3 +97,11 @@ display: block;
     color: rgb(0, 0, 0);
     background-color: rgb(241, 236, 236);
 }
+
+/* Terms and conditions*/
+
+.terms {
+    max-width: 80%;
+    margin: auto;
+    background: #fff;
+}
