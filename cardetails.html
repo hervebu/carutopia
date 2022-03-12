@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name='viewport' content='width=device-width, initial-scale=1'>
         <link rel="stylesheet" href="./home.css">
+        <link rel="stylesheet" href="style.css">
         <script src="https://kit.fontawesome.com/d881a9c703.js" crossorigin="anonymous"></script>
         <title>CarUtopia | Car details</title>
 
@@ -23,51 +24,32 @@
 
         <section class="body_cont">
             <div class="car-details">
-                <img id="car-selected" src="./assets/white-toyota.jpg">
+                <img id="car-selected">
                 <div class="car-selected-info">
-                    <h2 id="car-title">White Toyota Sedan</h2>
+                    <h2 id="car-title"></h2>
                     <h3 class="descr-title">Description</h3>
                     <ul>
-                        <li class="car-info"><span class="c-info-label">Name</span><span id="info-name" class="c-info-value">slfjaljflksaj</span></li>
-                        <li class="car-info"><span class="c-info-label">Manufacturer</span><span id="info-name" class="c-info-value">sdajflsjfd</span></li>
-                        <li class="car-info"><span class="c-info-label">Year released</span><span id="info-name" class="c-info-value">safkljlkdsjf</span></li>
-                        <li class="car-info"><span class="c-info-label">Condition</span><span id="info-name" class="c-info-value">slkdafjlkdsjf</span></li>
-                        <li class="car-info"><span class="c-info-label">Mileage</span><span id="info-name" class="c-info-value">slkdafjlkdsjf</span></li>
+                        <li class="car-info"><span class="c-info-label">Name</span><span id="info-name" class="c-info-value"></span></li>
+                        <li class="car-info"><span class="c-info-label">Manufacturer</span><span id="info-make" class="c-info-value"></span></li>
+                        <li class="car-info"><span class="c-info-label">Year released</span><span id="info-year" class="c-info-value"></span></li>
+                        <li class="car-info"><span class="c-info-label">Condition</span><span id="info-condition" class="c-info-value"></span></li>
+                        <li class="car-info"><span class="c-info-label">Mileage</span><span id="info-mileage" class="c-info-value"></span></li>
                     </ul>
-                    <div class="checkout-amnt">Total Amount: <span id="checkout-val">800,000 RWF</span></div>
+                    <div class="checkout-amnt">Total Amount: <span id="checkout-val"></span></div>
                     <label class="terms-conds-label">
                         <input type='checkbox' id='terms-conds-checkbox' onclick='checkboxClick()'> 
-                        I accept the <a class="terms-conds" href="">Terms and Conditions</a>
+                        I accept the <a class="terms-conds" href="tandc.html">Terms and Conditions</a>
                     </label>
                     <input type='button' id='checkout-btn' value='Proceed to Checkout' onclick='submit_to_checkout()'>
                 </div>
             </div>
             <h1 class="contacts_h">More vehicles</h1>
-            <div class="flex categories">
-                <div class="flex_child">
-                    <img class="stock-img" src="./assets/white-toyota.jpg">
-                    <h2 class="child_h">White Toyota sedan</h2>
-                    <a class="type-link cont-link" href="contact.html">Get a quote</a>
-                </div>
-                <div class="flex_child">
-                    <img class="stock-img" src="./assets/fuso.jpg">
-                    <h2 class="child_h">Fuso Mitsubishi</h2>
-                    <a class="type-link cont-link" href="contact.html">Get a quote</a>
-                </div>
-                <div class="flex_child">
-                    <img class="stock-img" src="./assets/buses.jpg">
-                    <h2 class="child_h">White busses</h2>
-                    <a class="type-link cont-link" href="contact.html">Get a quote</a>
-                </div>
-                <div class="flex_child">
-                    <img class="stock-img" src="./assets/black-sentafe.jpg">
-                    <h2 class="child_h">Black Hyundai Sentafe</h2>
-                    <a class="type-link cont-link" href="contact.html">Get a quote</a>
-                </div>
-            </div>
+            <div class="flex categories"></div>
         </section>
         <footer class="footer">
             <p class="copy_text">&copy; Copyright 2022 CarUtopia</p>
         </footer>
+        <script src='page.js'></script>
+        <script src='details.js'></script>
     </body>    
 </html>
