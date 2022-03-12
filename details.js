@@ -40,5 +40,5 @@ let cImg = localStorage.getItem('car_img'),
     }
 
     const submit_to_checkout = () => {
-        window.location.assign('../payment.html');
+        window.location.assign('../carutopia/payment.html');
     }

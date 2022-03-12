@@ -91,5 +91,5 @@ addCarInfo();
             localStorage.setItem('car_cond', condition);
             localStorage.setItem('car_miles', mileage);
             localStorage.setItem('car_cost', cost);
-            window.location.assign('../cardetails.html');
+            window.location.assign('../carutopia/cardetails.html');
         };
