@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="inquiry.css">
+    <script src="https://kit.fontawesome.com/d881a9c703.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inquiry page</title>
+</head>
+<body>
+
+    <div id="overlay">
+        <form onsubmit="event.preventDefault(); validateForm()">
+            <h2>Contact Us</h2>
+
+            <div class="valid">
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Full names">
+            <small class="error"></small>
+
+            <label for="name">Email:</label>
+            <input type="text" id="email" placeholder="Your email">
+            <small class="error"></small>
+        </div>
+
+            <label for="name">Message:</label>
+            <textarea id="message" placeholder="Your message" rows="6"></textarea>
+            <small class="error"></small>
+
+            <div class="center">
+                <input type="submit" id="submit" value="Submit">
+                <p id="success"></p>
+            </div>
+
+        </form>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
