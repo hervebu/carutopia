@@ -6,12 +6,11 @@
     border: none;
     transition: all .2s linear;
 }
-
-
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
     padding: 25px;
     min-height: 100vh;
     background-color: linear-gradient(90deg, #2ecc71 60%, #27ae60 40.1%);
@@ -37,7 +36,7 @@
 
 .container form .row .column .title {
     font-size: 20px;
-    color: #333;
+    color: #363636;
     padding-bottom: 5px;
     text-transform: uppercase;
 }
@@ -82,7 +81,7 @@ display: block;
 .container form .submit-btn {
     width: 100%;
     font-size: 17px;
-    background-color: #000;
+    background-color: #DB2D2E;
     color: #fff;
     margin-top: 5px;
     cursor: pointer;
@@ -129,9 +128,10 @@ p, .doc-list {
 }
 
 .btn-tandc {
-    width: 10%;
-    font-size: 17px;
-    background-color: #000;
+    width: 50%;
+    font-size: 20px;
+    text-align: center;
+    background-color: #DB2D2E;
     color: #fff;
     margin-top: 5px;
     cursor: pointer;
@@ -156,14 +156,14 @@ p, .doc-list {
     gap: 15px;
 }
 
-.tandc-top {
+/* .tandc-top {
     position: absolute;
     top: 0;
     width: 100%;
     height: 100px;
     z-index: -1;
     background-color: #fff;
-}
+} */
 .car2 {
     float: right;
     margin-top: 20%;
